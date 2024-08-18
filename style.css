@@ -5,23 +5,36 @@ li{
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 30px;
-    background-image: url(./images/food.png);
+    background-image: url(./images/tray_icon.png);
 }
 
-ol.index {
-    border: 2px, solid, bisque;
-    border-radius: 25px;
-    background-color: bisque;
+body {
+    font-family: plusjakartasans, -apple-system, blinkmacsystemfont, "Segoe UI", Roboto, Oxygen, Cantarell, "Helvetica Neue", Ubuntu, sans-serif;
 }
 
 body.index {
-    font-family: Tahoma, Verdana, sans-serif;
-    background-image: url(./images/back.jpg);
-    background-size: contain;
+    background-image: url(./images/back-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1.index{
-    border: 2px, solid, white;
-    border-radius: 25px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 69px;
+    line-height: 65px;
+    letter-spacing: -.02em;
 }
 
+body.index img {
+    position: relative;
+    left: 250px;
+    bottom: 40px;
+}
+
+body.index ol {
+    position: relative;
+    left: 440px;
+    bottom: 500px;
+    font-size: 20px;
+}
