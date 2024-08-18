@@ -8,7 +8,20 @@ li{
     background-image: url(./images/food.png);
 }
 
+ol.index {
+    border: 2px, solid, bisque;
+    border-radius: 25px;
+    background-color: bisque;
+}
+
 body.index {
     font-family: Tahoma, Verdana, sans-serif;
+    background-image: url(./images/back.jpg);
+    background-size: contain;
+}
+
+h1.index{
+    border: 2px, solid, white;
+    border-radius: 25px;
 }
 
