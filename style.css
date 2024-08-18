@@ -1,10 +1,14 @@
 li{
     list-style: none;
-    width: 200px;
+    width: 400px;
     padding-left: 35px;
-    border: 10px ridge pink;
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 35px;
+    background-size: 30px;
     background-image: url(./images/food.png);
 }
+
+body.index {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
