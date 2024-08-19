@@ -1,11 +1,6 @@
-body {
+html {
+    background-color: bisque;
     font-family: "plus jakarta sans", -apple-system, "blink mac system font", "Segoe UI", Roboto, Oxygen, Cantarell, "Helvetica Neue", Ubuntu, sans-serif;
-}
-
-body.index {
-    background-image: url(./images/back-1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 h1.index{
