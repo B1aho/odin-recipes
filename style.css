@@ -18,21 +18,22 @@ li h2 {
 }
 
 #plate-with-list {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #plate-with-list img {
     position: relative;
-    bottom: 40px;
+    bottom: 3em;
 }
 
 #plate-with-list ol {
     position: relative;
-    left: 10em;
-    bottom: 500px;
-    font-size: 20px;
+    left: 9em;
+    bottom: 25em;
+    font-size: 1.3em;
 }
 
 ol.index li{
