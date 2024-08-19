@@ -18,10 +18,8 @@ li h2 {
 }
 
 #plate-with-list {
-    border: solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width: fit-content;
+    margin-inline: auto;
 }
 
 #plate-with-list img {
@@ -31,7 +29,7 @@ li h2 {
 
 #plate-with-list ol {
     position: relative;
-    left: 9em;
+    left: 10em;
     bottom: 25em;
     font-size: 1.3em;
 }
