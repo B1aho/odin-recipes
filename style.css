@@ -11,15 +11,26 @@ h1.index{
     letter-spacing: -.02em;
 }
 
-body.index img {
+li h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+    letter-spacing: -.02em;
+}
+
+#plate-with-list {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#plate-with-list img {
     position: relative;
-    left: 250px;
     bottom: 40px;
 }
 
-body.index ol {
+#plate-with-list ol {
     position: relative;
-    left: 440px;
+    left: 10em;
     bottom: 500px;
     font-size: 20px;
 }
@@ -30,6 +41,7 @@ ol.index li{
     padding-left: 35px;
     background-repeat: no-repeat;
     background-position: left center;
-    background-size: 30px;
+    background-size: 1.7em;
     background-image: url(./images/tray_icon.png);
 }
+
